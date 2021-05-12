@@ -1,4 +1,4 @@
-name: Docker
+name: Docker Publish
 
 on:
   push:
@@ -36,7 +36,7 @@ jobs:
 
           # Change all uppercase to lowercase
           IMAGE_ID=$(echo $IMAGE_ID | tr '[A-Z]' '[a-z]')
-          VERSION=7.2-node
+          VERSION=7.4-node
 
           echo IMAGE_ID=$IMAGE_ID
           echo VERSION=$VERSION
