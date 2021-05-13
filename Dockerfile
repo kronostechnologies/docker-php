@@ -25,4 +25,5 @@ RUN sudo apt-get update && sudo apt-get install -y \
 
 RUN sudo pecl install pcov && \
     sudo sh -c 'echo "extension=pcov.so" > /etc/php/7.4/mods-available/pcov.ini' && \
-    sudo phpenmod pcov
+    sudo phpenmod pcov && \
+    sudo composer self-update --1
