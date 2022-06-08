@@ -36,7 +36,7 @@ jobs:
 
           # Change all uppercase to lowercase
           IMAGE_ID=$(echo $IMAGE_ID | tr '[A-Z]' '[a-z]')
-          VERSION=7.4-node
+          VERSION=8.1
 
           echo IMAGE_ID=$IMAGE_ID
           echo VERSION=$VERSION
