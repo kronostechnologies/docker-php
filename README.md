@@ -1,6 +1,6 @@
 # Equisoft php circleci image
 
-Based on cimg/php:8.1-node  https://github.com/CircleCI-Public/cimg-php
+Based on cimg/php:7.4-node  https://github.com/CircleCI-Public/cimg-php
 
 - Add pcov extension for faster test coverage
 - Add all php extensions used by equisoft
