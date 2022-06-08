@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t kronostechnologies/php:7.4-node .
+docker build -t kronostechnologies/php:8.1-node .
